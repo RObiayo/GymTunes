@@ -21,7 +21,66 @@ let isRandom = false;
 let updateTimer;
 
 const music_list = [
-    
+    {
+        img : 'imgs/asap.jpg',
+        name : 'Praise the Lord',
+        artist : 'A$aap Rocky, Skepta ft Da Shine',
+        music : 'playlist/praise the lord.mp3'
+    },
+    {
+        img : 'imgs/2pac.jpg',
+        name : 'Changes',
+        artist : '2Pac',
+        music : 'playlist/changes.mp3'
+    },    
+    {
+        img : 'imgs/eminem1.jpg',
+        name : 'No Love',
+        artist : 'Lil Wayne ft Eminem',
+        music : 'playlist/No love.mp3'
+    },
+    {
+        img : 'images/the game.jpg',
+        name : 'Hate It or Love It',
+        artist : 'The Game ft 50 Cent',
+        music : 'playlist/hate it or love it.mp3'
+    },
+    {
+        img : 'imgs/maino.jpg',
+        name : 'All the Above',
+        artist : 'Maino ft T-Pain',
+        music : 'playlist/all the above.mp3'
+    },
+    {
+      img : 'imgs/nf.jpg',
+        name : 'Leave me Alone',
+        artist : 'NF',
+        music : 'playlist/leave me alone.mp3'
+    },
+    {
+      img : 'imgs/nf.jpg',
+        name : 'Remember',
+        artist : 'NF',
+        music : 'playlist/remember.mp3'
+    },
+    {
+      img : 'imgs/nf.jpg',
+        name : 'The Search',
+        artist : 'NF',
+        music : 'playlist/the search.mp3'
+    },
+    {
+      img : 'imgs/eminem1.jpg',
+        name : 'Not Afraid',
+        artist : 'Eminem',
+        music : 'playlist/not afraid.mp3'
+    },
+    {
+      img : 'imgs/the script.jpg',
+        name : 'Hall of Fame',
+        artist : 'The Script',
+        music : 'playlist/hall of fame.mp3'
+    },
 ];
 
 loadTrack(track_index);
